@@ -83,7 +83,7 @@ export default class Projects extends React.Component {
               <img src={Planner} alt="" />
             </div>
             <div className="modal-info">
-              <h2>Planner</h2>
+              <h2>Make My Date</h2>
               <div className="modal-description">
                 <ul>
                   <li>
