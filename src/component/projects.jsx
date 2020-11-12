@@ -1,6 +1,6 @@
 import React from "react";
 import Planner from "../img/planner.png";
-import aguaDeLuz from "../img/aguaDeLuz.png";
+import Cal from "../img/cal.png";
 // import Burger from "../img/burger.png";
 import PropTypes from "prop-types";
 
@@ -49,7 +49,7 @@ export default class Projects extends React.Component {
               >
                 <div className="overlay">
                   <div className="text">
-                    <h2>Aguas De Luz</h2>
+                    <h2>Pocket Butler</h2>
                   </div>
                   <div>
                     <button
@@ -87,8 +87,10 @@ export default class Projects extends React.Component {
               <div className="modal-description">
                 <ul>
                   <li>
-                    Prototype marine web-application to provide information
-                    about progress of services and prices.
+                    Simply choose the city you're in and click the "Make My
+                    Date" button and off you go! Its that easy! We'll pick a
+                    restaurant for dinner and a event in the same area as dinner
+                    if you're interested.
                   </li>
                   <li>
                     Designed with HTML5, CSS3, Bootstrap, Webpack, Wordpress,
@@ -96,12 +98,19 @@ export default class Projects extends React.Component {
                 </ul>
               </div>
               <div className="modal-bottom">
+                <a
+                  href="https://mfallesen.github.io/plannerly/"
+                  target="_blank"
+                >
+                  <h3>View live demo</h3>
+                </a>
+
                 <p
                   className="close-icon"
                   style={{
                     textAlign: "right",
                     fontWeight: 900,
-                    fontSize: 2 + "rem",
+                    fontSize: 1 + "rem",
                     cursor: "pointer",
                   }}
                   onClick={() => {
@@ -119,24 +128,24 @@ export default class Projects extends React.Component {
 
           <div id="agualuz" className="modal-card">
             <div className="visual">
-              <img src={aguaDeLuz} alt="" />
+              <img src={Cal} alt="" />
             </div>
             <div className="modal-info">
-              <h2>Agua De Luz</h2>
+              <h2>Pocket Butler</h2>
               <div className="modal-description">
                 <ul>
                   <li>
-                    Prototype website to promote health natural-made products to
-                    increase brand and online presence.
+                    Pocket Butler is a Task scheduler app to make your life
+                    easier
                   </li>
                   <li>
-                    Developed with HTML5, CSS3, Bootstrap, Webpack, Parallax
-                    Effect, SmoothScrolling(UI), and VanillaJS.
+                    Developed with CSS3, Jquery, NodeJS, Express JS, Mysqle
+                    BCrypt, HandleBars JS
                   </li>
                 </ul>
               </div>
               <div className="modal-bottom">
-                <a href="./AguaDeLuz/index.html" target="_blank">
+                <a href="https://pocketbutler.herokuapp.com/" target="_blank">
                   <h3>View live demo</h3>
                 </a>
                 <p

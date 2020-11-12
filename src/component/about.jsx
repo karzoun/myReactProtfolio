@@ -48,9 +48,7 @@ export default class About extends React.Component {
               }}
             />
             <p className={"mytext pt-3 " + this.props.fadeIn}>
-              I love to transform ideas into reality using code. I am passionate
-              about using Javascript and animations to create awesome user
-              experiences.
+              Aspiring Full Stack Developer I love to learn new things
             </p>
           </div>
           <div
@@ -97,7 +95,7 @@ export default class About extends React.Component {
                 aria-valuemin="0"
                 aria-valuemax="100"
               >
-                PHP
+                Mysql
               </div>
             </div>
             <div className="progress mb-3">
@@ -130,7 +128,7 @@ export default class About extends React.Component {
                 aria-valuemin="0"
                 aria-valuemax="100"
               >
-                SASS
+                MongoDB
               </div>
             </div>
             <div className="progress mb-3">
