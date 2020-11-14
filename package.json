@@ -47,5 +47,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kodi24fever/reactjs-portfolio/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
